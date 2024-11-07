@@ -30,7 +30,7 @@ func (t *Todo) ListTodo() {
 }
 func main() {
 	var todo Todo
-	fmt.Println("Welcome To Bloge Apps")
+	fmt.Println("Welcome To Todo Apps")
 	scanner := bufio.NewScanner(os.Stdin)
 	for {
 		fmt.Println("_____________________")
